@@ -1,0 +1,200 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Overpass, sans-serif;
+  box-sizing: border-box;
+  background-color: #131518;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**************************/
+/* Helper Class */
+/**************************/
+
+.hidden {
+  visibility: hidden;
+}
+
+.main-margin-left {
+  margin-left: 3.2rem;
+}
+
+/**************************/
+/* Rating Card */
+/**************************/
+
+.rating-container {
+  width: 41.2rem;
+  height: 41.6rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#232a34, #181e27);
+  border-radius: 3rem;
+}
+
+/**************************/
+/* Rating Image */
+/**************************/
+
+.rating-img-container {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: #262e38;
+  border-radius: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+/**************************/
+/* Rating Text */
+/**************************/
+
+.main-text {
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 3.54rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+
+.main-information {
+  max-width: 34rem;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #969fad;
+  margin-bottom: 2.4rem;
+}
+
+/**************************/
+/* Rating Numbers */
+/**************************/
+
+.rating-number-container {
+  max-width: 34.1rem;
+  margin-bottom: 3.2rem;
+}
+
+.rating-numbers-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.rating-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.1rem;
+  height: 5.1rem;
+  color: #7c8798;
+  background-color: #262e38;
+  border-radius: 50rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/**************************/
+/* Rating Button */
+/**************************/
+
+.rating-button {
+  width: 34.1rem;
+  height: 4.5rem;
+  background-color: #fc7614;
+  color: #fff;
+  border: none;
+  border-radius: 2.25rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+}
+
+/**************************/
+/* Active States */
+/**************************/
+
+.rating-button:hover {
+  background-color: #fff;
+  color: #fc7614;
+  cursor: pointer;
+}
+
+.rating-numbers:hover {
+  background-color: #fc7614;
+  color: #fff;
+  cursor: pointer;
+}
+
+/**************************/
+/* Thank You Card */
+/**************************/
+
+.thanku-container {
+  position: absolute;
+  width: 41.2rem;
+  height: 41.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#232a34, #181e27);
+  border-radius: 3rem;
+  text-align: center;
+}
+
+/**************************/
+/* Thank You Image */
+/**************************/
+
+.thanku-img-container {
+  margin-top: 4.5rem;
+  margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* Thank You Number Response */
+/**************************/
+
+.thanku-selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19.3rem;
+  height: 3.2rem;
+  border-radius: 2.25rem;
+  background-color: #262e38;
+  color: #fc7614;
+  margin-bottom: 3.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/**************************/
+/* Media Queries */
+/**************************/
+
+@media (max-width: 40rem) {
+  html {
+    font-size: 50%;
+  }
+}

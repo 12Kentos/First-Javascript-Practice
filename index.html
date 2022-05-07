@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rate us Card section -->
+    <div class="rating-container">
+      <div class="rating-img-container main-margin-left">
+        <img class="rating-star-img" src="./images/icon-star.svg" alt="star" />
+      </div>
+      <div class="rating-text-container main-margin-left">
+        <h1 class="rating-question main-text">How did we do?</h1>
+        <p class="rating-information main-information">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="rating-number-container main-margin-left">
+        <ul class="rating-numbers-ul">
+          <li class="rating-numbers" data-number="1">1</li>
+          <li class="rating-numbers" data-number="2">2</li>
+          <li class="rating-numbers" data-number="3">3</li>
+          <li class="rating-numbers" data-number="4">4</li>
+          <li class="rating-numbers" data-number="5">5</li>
+        </ul>
+      </div>
+      <div class="rating-button-container main-margin-left">
+        <button class="rating-button">Submit</button>
+      </div>
+    </div>
+
+    <!-- Thank you for rating us card section -->
+    <div class="thanku-container hidden">
+      <div class="thanku-img-container main-margin-left">
+        <img
+          class="thanku-img"
+          src="./images/illustration-thank-you.svg"
+          alt="Thank you"
+        />
+      </div>
+      <div class="thanku-selection-container main-margin-left">
+        <div class="thanku-selection">You selected 4 out of 5</div>
+      </div>
+      <div class="thanku-text-container main-margin-left">
+        <p class="thanku-text main-text">Thank you!</p>
+        <p class="thanku-information main-information">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
